@@ -1,0 +1,300 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #f5fcfa;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.aside-title{
+    background-color: white;
+    height: 100%;
+    position: fixed;
+    width: 300px;
+    text-align: center;
+}
+
+.list{
+    list-style: none;
+    padding: 20px;
+    margin-top: 90px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    padding: 20px;
+}
+
+li:hover{
+    background-color: orange;
+}
+
+.name{
+    font-style: italic;
+    color: orange;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+section{
+    height: 200vh;
+}
+
+.home-sec{
+    height: 90vh;
+}
+
+.about-sec{
+    height: 150vh;
+}
+
+.services-sec{
+    height: 97vh;
+}
+
+.portfolio-sec{
+    height: 105vh;
+}
+
+.contact-sec{
+    height: 100vh;
+}
+
+.home-box{
+    margin-left: 300px;
+    padding: 20px;
+}
+
+
+.messages{
+    width: 800px;
+    margin-top: 170px;
+    margin-left: 20px;
+    font-style: oblique;
+    font-size: large;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+img{
+    width: 150px;
+}
+
+.picture{
+    height: fit-content;
+    position: absolute;
+    top: 90px;
+    margin-left: 700px;
+    box-shadow: 0 0 10px rgba(14, 27, 1, 0.5);
+}
+
+.names{
+    color: orange;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    background-color: orange;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(244, 205, 87);
+}
+
+.quali{
+    color: orange;
+}
+
+.studies{
+    color: orange;
+}
+
+.about-box{
+    margin-left: 300px;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.first-info{
+    position: absolute;
+}
+
+.second-info{
+    margin-left: 250px;
+    margin-top: 33px;
+}
+
+.info-buttons{
+    margin-top: 70px;
+}
+
+.education{
+    margin-top: 50px;
+    position: absolute;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(14, 27, 1, 0.5);
+    width: 400px;
+    height: fit-content;
+}
+
+.experience{
+    margin-top: 50px;
+    position: absolute;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(14, 27, 1, 0.5);
+    width: 400px;
+    height: fit-content;
+    margin-left: 500px;
+}
+
+
+.services-box{
+    margin-left: 300px;
+    padding: 20px;
+    position: absolute;
+}
+
+.web{
+    text-align: center;
+    position: absolute;
+    margin-top: 30px;
+    width: 300px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(14, 27, 1, 0.5);
+}
+
+.software{
+    text-align: center;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 350px;
+    height: 148px;
+    width: 300px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(14, 27, 1, 0.5);
+}
+
+.database{
+    text-align: center;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 700px;
+    height: 148px;
+    width: 300px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(14, 27, 1, 0.5);
+}
+
+.machine{
+    text-align: center;
+    position: absolute;
+    margin-top: 250px;
+    height: 148px;
+    width: 300px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(14, 27, 1, 0.5);
+}
+
+.tester{
+    text-align: center;
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 250px;
+    height: 148px;
+    width: 300px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(14, 27, 1, 0.5);
+}
+
+.analyst{
+    text-align: center;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 250px;
+    height: 148px;
+    width: 300px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(14, 27, 1, 0.5);
+}
+
+.portfolio-box{
+    margin-left: 300px;
+    padding: 20px;
+    position: absolute;
+}
+
+.contact-box{
+    margin-left: 300px;
+    padding: 20px;
+    position: absolute;
+}
+
+.contact-title{
+    padding: 20px;
+}
+
+.contact-info{
+    margin-top: 80px;
+}
+
+.sub-title{
+    color: orange;
+}
+
+.call{
+    text-align: center;
+    position: absolute;
+    width: 220px;
+    box-shadow: 0 0 10px rgba(14, 27, 1, 0.5);
+}
+
+.address{
+    text-align: center;
+    position: absolute;
+    width: 220px;
+    margin-left: 250px;
+    box-shadow: 0 0 10px rgba(14, 27, 1, 0.5);
+}
+
+.email-me{
+    text-align: center;
+    position: absolute;
+    margin-left: 500px;
+    width: 220px;
+    box-shadow: 0 0 10px rgba(14, 27, 1, 0.5);
+}
+
+.linkedin{
+    text-align: center;
+    position: absolute;
+    margin-left: 750px;
+    width: 220px;
+    box-shadow: 0 0 10px rgba(14, 27, 1, 0.5);
+}
+
+.contact-me{
+    margin-top: 50px;
+}
+
+.send{
+    margin-top: 200px;
+}
+
+.line{
+    width: 100%;
+    height: 5px;
+    background-color: orange;
+    box-shadow: 0 0 10px rgba(14, 27, 1, 0.5);
+}
+
+.active{
+    background-color: red;
+}
